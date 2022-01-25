@@ -11,7 +11,6 @@ def var():
         var()
 
 
-
     try:
         y = float(input("digite uma variavel do tipo float\n"))
 
@@ -19,7 +18,6 @@ def var():
         os.system("clear")
         print("vc não digitou uma variavel do tipo float, tente novamente")
         var()
-
 
 
     try:
@@ -38,6 +36,7 @@ def var():
         os.system("clear")
         print("vc não digitou uma variavel do tipo boleano, tente novament")
         var()
+    
     
     os.system("clear")
 
