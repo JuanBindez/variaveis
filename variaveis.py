@@ -29,6 +29,15 @@ def var():
         os.system("clear")
         print("vc não digitou uma variavel do tipo str, tente novamente")
         var()
+        
+        
+    try:
+        b = bool(input("digite uma variavel do tipo boleano\n"))
+
+    except ValueError:
+        os.system("clear")
+        print("vc não digitou uma variavel do tipo boleano, tente novament")
+        var()
     
     os.system("clear")
 
@@ -36,6 +45,7 @@ def var():
     print(type(x),x)
     print(type(y),y)
     print(type(z),z)
+    print(type(b),b)
 
 
 var()
